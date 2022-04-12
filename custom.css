@@ -1,0 +1,81 @@
+@import url('https://www.fontstatic.com/f=yassin,amiri-quran,basim-marah,b-compset');
+
+
+.title{
+direction: rtl;
+font-size:100px;
+padding-right: 15px;
+line-height:10px;
+font-family:basim-marah;
+
+}
+
+.arabic{
+direction:rtl;
+font-size:20px;
+line-height:40px;
+padding-right: 1cm;
+padding-left: 1cm;
+text-align:justify;
+font-family:amiri-quran;
+}
+
+.horizontal{
+height:2px;
+border:none;
+color:#333;
+background-color:#333;
+width:75%;
+}
+.jupyter-widgets{
+    font-size:20px;
+    direction:rtl;
+    margin-right:25px;
+    font-family:amiri-quran;
+        
+}
+.widget-radio-box input{
+    float:right;
+    direction:ltr;
+    margin: 0 calc( var(--jp-widgets-input-padding) * 2 ) 0 10px;
+    text-align:right;
+    height: 30px;
+}
+.widget-radio{
+    flex-direction: column;
+    width:unset;
+    
+}
+.widget-label{  
+    font-family:amiri-quran;
+    font-size:18px;
+    height: 40px;
+}
+
+.widget-radio-box label {
+    font-size:18px;
+    height: 30px;
+}
+
+.true-grade{
+    color:green;
+}
+.false-grade{
+    color:red;
+}
+label:lang(en){
+    direction:ltr;
+    text-align:right;
+}
+.s{
+    line-height:unset;
+    height:unset;
+}
+.CodeMirror-wrap {
+    font-size:16px;
+}
+
+.basic_table{
+    font-size:20px;
+    color:"green";
+}
